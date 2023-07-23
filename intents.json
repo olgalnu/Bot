@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["Hola", "Buenas", "¿Cómo estás?", "¿Hay alguien ahí?", "Hey", "Hello", "Buen día", "yo"],
+      "responses": ["Hola", "¡Bueno verte de nuevo!", "Hola, ¿en qué puedo ayudarte?"],
+      "context": ""
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Adiós", "Chau", "Hasta pronto"],
+      "responses": ["Que tengas un buen día", "¡Adiós! Vuelve pronto."],
+      "context": ""
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["Gracias", "Muchas gracias", "Eso es útil", "Impresionante, gracias", "Gracias por ayudarme"],
+      "responses": ["¡Encantado de ayudar!", "¡En cualquier momento!", "Es un placer"],
+      "context": ""
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["Lo siento, no puedo entenderte", "Por favor, dame más información", "No estoy seguro de entenderte"],
+      "context": ""
+    },
+    {
+      "tag": "envio",
+      "patterns": ["envios", "realizan envios", "envios al interior", "costo del envio"],
+      "responses": ["De qué ciudad sos?", "De qué parte sos?"],
+      "context": ""
+    },
+    {
+      "tag": "ciudades",
+      "patterns": ["asuncion", "encarnacion", "caaguazu", "oviedo"],
+      "responses": ["El costo del envío sería de 25 mil gs y te entregan en puerta. Demora de 24 a 48hs en llegar."],
+      "context": ""
+    },
+    {
+      "tag": "productos",
+      "patterns": ["producto", "catálogo", "qué venden", "qué productos tienen"],
+      "responses": ["Tenemos una amplia variedad de productos. ¿Estás buscando algo en particular?"],
+      "context": ""
+    },
+    {
+      "tag": "precios",
+      "patterns": ["precios", "cuánto cuesta","precio de", "costo","¿a qué precio","cotización","tarifas", "valor"],
+      "responses": ["Nuestros precios varían según el producto. ¿Hay algo específico que te interese?"],
+      "context": ""
+    }
+
+  ]
+}
